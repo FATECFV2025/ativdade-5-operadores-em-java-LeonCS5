@@ -23,6 +23,21 @@ public class Aritimeticos {
         //exemplo de modulo(ou resto);Retorna o resto da divisão entre dois números
         System.out.println("O Resultado de modulo(ou resto) é: "+oa.resto(a, b));
 
+        //Soma um valor ao número e atualiza a variável
+        System.out.println("O Resultado de adicao composta é: " + oa.adicaoComposta(a, b));
+
+        //Subtrai um valor do número e atualiza a variável
+        System.out.println("O Resultado de subtracao composta é: " + oa.subtracaoComposta(a, b));
+
+        //Multiplica o número por um valor e atualiza a variável
+        System.out.println("O Resultado de multiplicacao composta é: " + oa.multiplicacaoComposta(a, b));
+
+        //Divide o número por um valor e atualiza a variável
+        System.out.println("O Resultado de divisao composta é: " + oa.divisaoComposta(a, b));
+
+        //Calcula o resto da divisão e atualiza a variável
+        System.out.println("O Resultado de modulo composto é: " + oa.restoComposto(a, b));
+
         sc1.close();
     }
 }
